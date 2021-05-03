@@ -1,0 +1,52 @@
+body {
+    background-color:azure;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .LetterHead{
+      margin-left: -10px;
+      margin-right: -8px;
+      margin-top: -10px;
+  }
+  .SchoolName{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 40px;
+      background-color:rgb(191, 238, 20);
+      color: rgb(86, 15, 252);
+  }
+  .SchoolAddress{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+  }
+  .Greeting{
+      font-size: 15px;
+      color: #c0350b;
+  }
+  
+a{
+  text-decoration: none;
+  color:white;
+}
+.Headbmenu{
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+      color: rgb(247, 116, 56);
+}
+.EndOfPage{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: -50px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+
+
+
+
+
+
+
