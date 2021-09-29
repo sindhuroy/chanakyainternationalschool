@@ -1,140 +1,88 @@
-body {
-    background-color:azure;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+<!DOCTYPE html>
+<html lang="en">
 
-.LetterHead{
-    margin-left: -10px;
-    margin-right: -8px;
-    margin-top: -10px;
-}
-.SchoolName{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    background-color:rgb(191, 238, 20);
-    color: rgb(86, 15, 252);
-}
-.SchoolAddress{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-.Greeting{
-    font-size: 15px;
-    color: #c0350b;
-}
-  
-a{
-  text-decoration: none;
-  color:white;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Styles.css" rel="stylesheet">
+    <link href="menusection.css" rel="stylesheet">
+    <title>Chanakya International School</title>
+    <link rel="shortcut icon" href="schoollogo.jpg"/>
+    <script>
+        function resp() {
+            alert("It is under maintenance");
+        }
+    </script>
+</head>
 
-.menusection {
-    background: #002c56;
-    color: white;
-    text-align: left;
-    margin-left: -10px;
-    margin-right: -8px;
-    padding: 0px 30px;
-}
+<body>
+    <div class="LetterHead">
+        <div><img src="schoollogo.jpg"></div>
+        <div>
+            <p></p>
+            <div class="SchoolName">Chanakya International School</div>
+            <div class="SchoolAddress">Sadar Bazar Delhi Cantt, Delhi-110010</div>
+        </div>
+    </div>
 
-ul li{
-    display: inline;
-    padding-right: 10px;
-}
+    <div class="menusection">
+        <div class="menu-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" onclick="resp()" />Academics</a></li>
+                <li><a href="#" onclick="resp()" />Enrollment Statistics</a></li>
+                <li><a href="#" onclick="resp()" />Achievements</a></li>
+                <li><a href="#" onclick="resp()" />Management</a></li>
+                <li><a href="#" onclick="resp()" />Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="Greeting"><marquee><img src="newicon.gif">This website is for learning purpose only. There is no actual any school</marquee></div>
+    <div class="container1">
+        <div class="box1">
+            <p class="Headbmenu1">Our <span>Vision</span></p>
+            <p>To cater to the educational needs of the children of far areas from cities and backward areas by providing a quality education; To pursue excellence
+                and set the pace in the field of school education; To initiate and promote experimentation and
+                innovativeness in education in collaboration with other bodies like the Research centers, clubs, etc.</p>
+            <p class="Headbmenu1">Our <span>Mission</span></p>
+            <p>To make the childrens of under privilaged class society to achieve their dreams; To pursue excellence and set the
+                pace in the field of school education; To bring out the best quality from a children and help them to achieve success.</p>
+        </div>
+        <div class="box2">
+            <p class="Headbmenu1">Announcements</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box3">
+        <center>
+            <p class="Headbmenu2">Message from the desk of principal</p>
+            <p>
+                As one amongst you, I understand and appreciate the most difficult and challenging task ahead of us. 
+                Shaping the destiny of a child is a matter of great pride for each one of us. 
+                The main object of education is the establishment 
+            </p>
+            <p><a href="#" style="color:black;">Continue...</a></p>
+        </center>
+        </div>
+        <div class="box4">
+        <center>
+            <p class="Headbmenu2">Recent Activities</p>
+        </center>
+        </div>
+    </div>
+    <div class="EndOfPage">
+        <br>
+        <div class="FooterLinks">
+            <div><a href="https://www.cbse.gov.in/cbsenew/cbse.html">CBSE</a></div>
+            <div><a href="#" onclick="resp()" />Teacher Login</a></div>
+            <div><a href="https://www.education.gov.in/en">Ministry of education</a></div>
+        </div>
+        <p style="margin-top: 10px;">
+            <center>This wesite is designed by Sindhu Roy and it is maintained by Chanakya International School</center>
+        </p>
+        <br>
+    </div>
+</body>
 
-
-.Headbmenu1{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color: rgb(247, 116, 56);
-}
-.Headbmenu2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
-    color: rgb(55, 9, 221);
-}
-.EndOfPage{
-    background: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin-bottom: -50px;
-    margin-left: -10px;
-    margin-right: -8px;
-}
-
-.container1{
-    width: 100%;
-    height: auto;
-    /*adding flexbox style*/
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.container2{
-    width: 101.2%;
-    height: auto;
-    background: papayawhip;
-    /*adding flexbox style*/
-
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-left: -9px;
-    margin-right: -8px;
-}
-.box{
-    width:20%;
-    height:300px;
-    background: yellow;
-    margin-left:20px;
-    margin-right:20px;
-    box-sizing: border-box;
-    font-size: 50px;
-}
-
-.box1{
-    width:50%;
-    min-width: 300px;
-    height:auto;
-    box-sizing: border-box;
-    margin-left:20px;
-    margin-right:20px;
-}
-
-.box2{
-    width:30%;
-    min-width: 300px;
-    height:auto;
-    box-sizing:border-box;
-    margin-left:20px;
-    margin-right:20px;
-}
-.box3{
-    width:50%;
-    min-width: 300px;
-    height:auto;
-    box-sizing:border-box;
-    margin-left:26px;
-    margin-right:20px;
-    background: white;
-    border-radius:15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.box4{
-    width:30%;
-    height:auto;
-    box-sizing: border-box;
-    margin-left:20px;
-    box-sizing: border-box;
-    box-shadow: darkgray;
-    background: white;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+</html>
