@@ -4,51 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="Styles.css" rel="stylesheet">
     <link href="menusection.css" rel="stylesheet">
     <title>Chanakya International School</title>
-    <link rel="shortcut icon" href="schoollogo.jpg">
+    <link rel="shortcut icon" href="schoollogo.jpg"/>
     <script>
-        function willannounced() {
-            alert("Yet to be announced");
+        function resp() {
+            alert("It is under maintenance");
         }
     </script>
 </head>
 
 <body>
-    <div class="LetterHead" ;">
-        <table>
-            <tr>
-                <td rowspan="2"><img src="schoollogo.jpg" alt="Not found" width="125px"></td>
-                <td class="SchoolName">Chanakya International School</td>
-            </tr>
-            <tr>
-                <td class="SchoolAddress">Harpur Bhindi, Samastipur, Bihar-848122</td>
-            </tr>
-        </table>
+    <div class="LetterHead">
+        <div><img src="schoollogo.jpg"></div>
+        <div>
+            <p></p>
+            <div class="SchoolName">Chanakya International School</div>
+            <div class="SchoolAddress">Sadar Bazar Delhi Cantt, Delhi-110010</div>
+        </div>
     </div>
 
     <div class="menusection">
         <div class="menu-content">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Academics</a></li>
-                <li><a href="#">Enrollment Statistics</a></li>
-                <li><a href="#">Achievements</a></li>
-                <li><a href="#">Management</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#" onclick="resp()" />Academics</a></li>
+                <li><a href="#" onclick="resp()" />Enrollment Statistics</a></li>
+                <li><a href="#" onclick="resp()" />Achievements</a></li>
+                <li><a href="#" onclick="resp()" />Management</a></li>
+                <li><a href="#" onclick="resp()" />Gallery</a></li>
             </ul>
         </div>
     </div>
-    <div class="Greeting"><marquee>This website is for learning purpose only. There is no actual any school</marquee></div>
+    <div class="Greeting"><marquee><img src="newicon.gif">This website is for learning purpose only. There is no actual any school</marquee></div>
     <div class="container1">
         <div class="box1">
-            <p class="Headbmenu1">Our Vision</p>
+            <p class="Headbmenu1">Our <span>Vision</span></p>
             <p>To cater to the educational needs of the children of far areas from cities and backward areas by providing a quality education; To pursue excellence
                 and set the pace in the field of school education; To initiate and promote experimentation and
                 innovativeness in education in collaboration with other bodies like the Research centers, clubs, etc.</p>
-            <p class="Headbmenu1">Our Mission</p>
+            <p class="Headbmenu1">Our <span>Mission</span></p>
             <p>To make the childrens of under privilaged class society to achieve their dreams; To pursue excellence and set the
                 pace in the field of school education; To bring out the best quality from a children and help them to achieve success.</p>
         </div>
@@ -60,7 +57,7 @@
         <div class="box3">
         <center>
             <p class="Headbmenu2">Message from the desk of principal</p>
-            <p class="box5">
+            <p>
                 As one amongst you, I understand and appreciate the most difficult and challenging task ahead of us. 
                 Shaping the destiny of a child is a matter of great pride for each one of us. 
                 The main object of education is the establishment 
@@ -76,7 +73,12 @@
     </div>
     <div class="EndOfPage">
         <br>
-        <p>
+        <div class="FooterLinks">
+            <div><a href="https://www.cbse.gov.in/cbsenew/cbse.html">CBSE</a></div>
+            <div><a href="#" onclick="resp()" />Teacher Login</a></div>
+            <div><a href="https://www.education.gov.in/en">Ministry of education</a></div>
+        </div>
+        <p style="margin-top: 10px;">
             <center>This wesite is designed by Sindhu Roy and it is maintained by Chanakya International School</center>
         </p>
         <br>
